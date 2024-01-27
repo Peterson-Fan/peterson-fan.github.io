@@ -114,6 +114,7 @@
 
   <div class="site-nav-right">
     <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
     </div>
   </div>
 </div>
@@ -143,11 +144,35 @@
     <a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a>
 
   </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
   </ul>
 </nav>
 
 
 
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container"></div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div class="algolia-results">
+  <div id="algolia-stats"></div>
+  <div id="algolia-hits"></div>
+  <div id="algolia-pagination" class="algolia-pagination"></div>
+</div>
+
+      
+    </div>
+  </div>
 
 </div>
     </header>
@@ -274,7 +299,7 @@
               <span class="post-meta-item-text">发表于</span>
               
 
-              <time title="创建时间：2024-01-27 12:23:35 / 修改时间：21:25:49" itemprop="dateCreated datePublished" datetime="2024-01-27T12:23:35+08:00">2024-01-27</time>
+              <time title="创建时间：2024-01-27 12:23:35 / 修改时间：22:39:06" itemprop="dateCreated datePublished" datetime="2024-01-27T12:23:35+08:00">2024-01-27</time>
             </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -319,7 +344,11 @@
 
       
           <p>主题为<code>next</code>，其官方配置网站：<a target="_blank" rel="noopener" href="https://theme-next.iissnan.com/">https://theme-next.iissnan.com/</a></p>
-<h2 id="插件"><a href="#插件" class="headerlink" title="插件"></a>插件</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-deployer-git --save <span class="comment"># 远程部署相关插件</span></span><br><span class="line"><span class="comment"># 设置每页文章最多数量限制</span></span><br><span class="line">npm install --save hexo-generator-index</span><br><span class="line">npm install --save hexo-generator-archive</span><br><span class="line">npm install --save hexo-generator-tag </span><br></pre></td></tr></table></figure>
+<h2 id="插件与启用的功能"><a href="#插件与启用的功能" class="headerlink" title="插件与启用的功能"></a>插件与启用的功能</h2><p>valian 评论</p>
+<p>google_analytics 网页数据分析</p>
+<p>algolia 站内搜索</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">npm install --save hexo-algolia</span><br><span class="line"><span class="comment"># 需安装此插件</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># hexo插件</span></span><br><span class="line">npm install hexo-deployer-git --save <span class="comment"># 远程部署相关插件</span></span><br></pre></td></tr></table></figure>
 
 <h2 id="Quick-Deploy"><a href="#Quick-Deploy" class="headerlink" title="Quick Deploy"></a>Quick Deploy</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">hexo clean  <span class="comment"># 清除缓存</span></span><br><span class="line">hexo g      <span class="comment"># 生成静态文件</span></span><br><span class="line">hexo s      <span class="comment"># 本地预览</span></span><br><span class="line">hexo d      <span class="comment"># 部署项目</span></span><br></pre></td></tr></table></figure>
           <!--noindex-->
@@ -499,6 +528,13 @@
 
   
 
+
+
+
+  
+<script src="//cdn.jsdelivr.net/npm/algoliasearch@4/dist/algoliasearch-lite.umd.js"></script>
+<script src="//cdn.jsdelivr.net/npm/instantsearch.js@4/dist/instantsearch.production.min.js"></script>
+<script src="/js/algolia-search.js"></script>
 
 
 
