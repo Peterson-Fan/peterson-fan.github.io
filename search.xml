@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>Hello World</title>
+    <url>/2024/01/27/hello-world/</url>
+    <content><![CDATA[<p>主题为<code>next</code>，其官方配置网站：<a href="https://theme-next.iissnan.com/">https://theme-next.iissnan.com/</a></p>
+<h2 id="插件与启用的功能"><a class="markdownIt-Anchor" href="#插件与启用的功能"></a> 插件与启用的功能</h2>
+<p>valian 评论</p>
+<p>google_analytics 网页数据分析</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install --save hexo-algolia</span><br><span class="line"><span class="comment"># 需安装此插件</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># hexo插件</span></span><br><span class="line">npm install hexo-deployer-git --save <span class="comment"># 远程部署相关插件</span></span><br><span class="line">npm install hexo-cake-moon-menu <span class="comment"># 文章阅读进度条</span></span><br><span class="line">npm install hexo-generator-searchdb --save  <span class="comment"># 内容搜索</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 数学公式支持</span></span><br><span class="line">npm uninstall hexo-renderer-marked</span><br><span class="line">npm install hexo-renderer-markdown-it-plus</span><br></pre></td></tr></table></figure>
+<h2 id="quick-deploy"><a class="markdownIt-Anchor" href="#quick-deploy"></a> Quick Deploy</h2>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo clean  <span class="comment"># 清除缓存</span></span><br><span class="line">hexo algolia <span class="comment"># 生成搜索功能索引</span></span><br><span class="line">hexo g      <span class="comment"># 生成静态文件</span></span><br><span class="line">hexo s      <span class="comment"># 本地预览</span></span><br><span class="line">hexo d      <span class="comment"># 部署项目</span></span><br></pre></td></tr></table></figure>
+<span id="more"></span>
+<h2 id="新页面"><a class="markdownIt-Anchor" href="#新页面"></a> 新页面</h2>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo new page title</span><br><span class="line"><span class="comment"># 修改type</span></span><br><span class="line"><span class="comment"># 然后在_config.theme.yml中的menu项里设置</span></span><br><span class="line"><span class="comment"># 详细可参考这篇文章 https://theme-next.iissnan.com/theme-settings.html</span></span><br></pre></td></tr></table></figure>
+<h2 id="新文章"><a class="markdownIt-Anchor" href="#新文章"></a> 新文章</h2>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo new title          <span class="comment"># 默认创建post</span></span><br><span class="line"></span><br><span class="line">hexo new draft title    <span class="comment"># 创建草稿</span></span><br><span class="line">hexo s --draft          <span class="comment"># 在本地渲染所有文章（包括草稿）</span></span><br><span class="line">hexo p title            <span class="comment"># 将草稿发布（移动到_posts）    </span></span><br></pre></td></tr></table></figure>
+<p>想要恢复草稿状态，只需要手动将md文件从<code>_post</code>文件夹移动到<code>_drafts</code>文件夹下即可</p>
+<h2 id="文章模块语法"><a class="markdownIt-Anchor" href="#文章模块语法"></a> 文章模块语法</h2>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&lt;!-- more --&gt;  <span class="comment"># 截断文章</span></span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>关于</category>
+      </categories>
+      <tags>
+        <tag>技术笔记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>中文测试</title>
+    <url>/2024/01/27/%E4%B8%AD%E6%96%87%E6%B5%8B%E8%AF%95/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+</search>
