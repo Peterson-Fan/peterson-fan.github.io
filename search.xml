@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>中文测试</title>
-    <url>/posts/48b37900/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
     <title>Hello World</title>
     <url>/posts/4a17b156/</url>
     <content><![CDATA[<p>主题为<code>next</code>，其官方配置网站：<a href="https://theme-next.iissnan.com/">https://theme-next.iissnan.com/</a></p>
@@ -53,5 +48,10 @@ password: 01ba111a</p>
       <tags>
         <tag>技术笔记</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>中文测试</title>
+    <url>/posts/48b37900/</url>
+    <content><![CDATA[]]></content>
   </entry>
 </search>
