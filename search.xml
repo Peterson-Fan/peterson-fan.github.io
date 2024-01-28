@@ -9,7 +9,7 @@
 <p>google_analytics 网页数据分析</p>
 <p>local search 自带的本地搜索</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install --save hexo-algolia</span><br><span class="line"><span class="comment"># 需安装此插件</span></span><br></pre></td></tr></table></figure>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># hexo插件</span></span><br><span class="line">npm install hexo-deployer-git --save <span class="comment"># 远程部署相关插件</span></span><br><span class="line">npm install hexo-cake-moon-menu <span class="comment"># 文章阅读进度条</span></span><br><span class="line">npm install hexo-generator-searchdb --save  <span class="comment"># 内容搜索</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 数学公式支持</span></span><br><span class="line">npm uninstall hexo-renderer-marked</span><br><span class="line">npm install hexo-renderer-markdown-it-plus</span><br><span class="line"></span><br><span class="line"><span class="comment">#live2D</span></span><br><span class="line">npm install --save hexo-helper-live2d</span><br><span class="line">npm install live2d-widget-model-hijiki <span class="comment"># 猫的模型</span></span><br><span class="line">npm install live2d-widget-model-z16</span><br><span class="line"></span><br><span class="line"><span class="comment">#中文内容链接优化</span></span><br><span class="line">npm install hexo-abbrlink --save</span><br><span class="line"></span><br><span class="line"><span class="comment"># 词云图</span></span><br><span class="line">npm install hexo-tag-cloud</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># hexo插件</span></span><br><span class="line">npm install hexo-deployer-git --save <span class="comment"># 远程部署相关插件</span></span><br><span class="line">npm install hexo-cake-moon-menu <span class="comment"># 文章阅读进度条</span></span><br><span class="line">npm install hexo-generator-searchdb --save  <span class="comment"># 内容搜索</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 数学公式支持</span></span><br><span class="line">npm uninstall hexo-renderer-marked</span><br><span class="line">npm install hexo-renderer-markdown-it-plus</span><br><span class="line"></span><br><span class="line"><span class="comment">#live2D</span></span><br><span class="line">npm install --save hexo-helper-live2d</span><br><span class="line">npm install live2d-widget-model-hijiki <span class="comment"># 猫的模型</span></span><br><span class="line">npm install live2d-widget-model-z16</span><br><span class="line"></span><br><span class="line"><span class="comment">#中文内容链接优化</span></span><br><span class="line">npm install hexo-abbrlink --save</span><br></pre></td></tr></table></figure>
 <h2 id="quick-deploy"><a class="markdownIt-Anchor" href="#quick-deploy"></a> Quick Deploy</h2>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo clean  <span class="comment"># 清除缓存</span></span><br><span class="line">hexo algolia <span class="comment"># 生成搜索功能索引</span></span><br><span class="line">hexo g      <span class="comment"># 生成静态文件</span></span><br><span class="line">hexo s      <span class="comment"># 本地预览</span></span><br><span class="line">hexo d      <span class="comment"># 部署项目</span></span><br></pre></td></tr></table></figure>
 <span id="more"></span>
@@ -21,10 +21,26 @@
 <h2 id="文章模块语法"><a class="markdownIt-Anchor" href="#文章模块语法"></a> 文章模块语法</h2>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&lt;!-- more --&gt;  <span class="comment"># 截断文章</span></span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
 <h1 id="一些资源教程"><a class="markdownIt-Anchor" href="#一些资源教程"></a> 一些资源教程</h1>
+<p><a href="https://pdpeng.github.io/2022/01/19/setup-personal-blog/#%E5%9F%9F%E5%90%8D">https://pdpeng.github.io/2022/01/19/setup-personal-blog/#域名</a> 部署</p>
 <p><a href="https://zhuanlan.zhihu.com/p/129644138">https://zhuanlan.zhihu.com/p/129644138</a> 美化</p>
 <p><a href="https://www.mickeymiao.top/posts/f9b8ceb/">https://www.mickeymiao.top/posts/f9b8ceb/</a> 美化</p>
 <p><a href="https://zhuanlan.zhihu.com/p/35668237">https://zhuanlan.zhihu.com/p/35668237</a> 技术</p>
 <p><a href="https://www.zhihu.com/people/feng-di-54-18/posts">https://www.zhihu.com/people/feng-di-54-18/posts</a> 技术</p>
+<h1 id="部署到云主机"><a class="markdownIt-Anchor" href="#部署到云主机"></a> 部署到云主机</h1>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">1.</span><br><span class="line">用ubuntu</span><br><span class="line"><span class="comment"># 获取root权限</span></span><br><span class="line">sudo su root  </span><br><span class="line"><span class="comment"># 本地终端直连云服务器</span></span><br><span class="line">ssh root@&lt;your_server_ip&gt;</span><br></pre></td></tr></table></figure>
+<ol start="2">
+<li></li>
+</ol>
+<p>宝塔：到官网找安装脚本，直接安装。安装好会显示以下信息：<br />
+外网面板地址: <a href="https://47.243.42.58:35227/e49fa34b">https://47.243.42.58:35227/e49fa34b</a><br />
+内网面板地址: <a href="https://172.17.19.219:35227/e49fa34b">https://172.17.19.219:35227/e49fa34b</a><br />
+username: up8aqa27<br />
+password: 930977d5</p>
+<ol start="3">
+<li></li>
+</ol>
+<p>打开面板地址，用这里的账号密码登录，可进入到管理面板中<br />
+安装nginx（sudo apt install nginx），git(sudo apt install git)</p>
 ]]></content>
       <categories>
         <category>关于</category>
