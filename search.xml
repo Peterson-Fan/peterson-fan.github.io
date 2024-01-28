@@ -2,13 +2,14 @@
 <search>
   <entry>
     <title>Hello World</title>
-    <url>/2024/01/27/hello-world/</url>
+    <url>/posts/4a17b156/</url>
     <content><![CDATA[<p>主题为<code>next</code>，其官方配置网站：<a href="https://theme-next.iissnan.com/">https://theme-next.iissnan.com/</a></p>
 <h2 id="插件与启用的功能"><a class="markdownIt-Anchor" href="#插件与启用的功能"></a> 插件与启用的功能</h2>
 <p>valian 评论</p>
 <p>google_analytics 网页数据分析</p>
+<p>local search 自带的本地搜索</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install --save hexo-algolia</span><br><span class="line"><span class="comment"># 需安装此插件</span></span><br></pre></td></tr></table></figure>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># hexo插件</span></span><br><span class="line">npm install hexo-deployer-git --save <span class="comment"># 远程部署相关插件</span></span><br><span class="line">npm install hexo-cake-moon-menu <span class="comment"># 文章阅读进度条</span></span><br><span class="line">npm install hexo-generator-searchdb --save  <span class="comment"># 内容搜索</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 数学公式支持</span></span><br><span class="line">npm uninstall hexo-renderer-marked</span><br><span class="line">npm install hexo-renderer-markdown-it-plus</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># hexo插件</span></span><br><span class="line">npm install hexo-deployer-git --save <span class="comment"># 远程部署相关插件</span></span><br><span class="line">npm install hexo-cake-moon-menu <span class="comment"># 文章阅读进度条</span></span><br><span class="line">npm install hexo-generator-searchdb --save  <span class="comment"># 内容搜索</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 数学公式支持</span></span><br><span class="line">npm uninstall hexo-renderer-marked</span><br><span class="line">npm install hexo-renderer-markdown-it-plus</span><br><span class="line"></span><br><span class="line"><span class="comment">#live2D</span></span><br><span class="line">npm install --save hexo-helper-live2d</span><br><span class="line">npm install live2d-widget-model-hijiki <span class="comment"># 猫的模型</span></span><br><span class="line">npm install live2d-widget-model-z16</span><br><span class="line"></span><br><span class="line"><span class="comment">#中文内容链接优化</span></span><br><span class="line">npm install hexo-abbrlink --save</span><br><span class="line"></span><br><span class="line"><span class="comment"># 词云图</span></span><br><span class="line">npm install hexo-tag-cloud</span><br></pre></td></tr></table></figure>
 <h2 id="quick-deploy"><a class="markdownIt-Anchor" href="#quick-deploy"></a> Quick Deploy</h2>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo clean  <span class="comment"># 清除缓存</span></span><br><span class="line">hexo algolia <span class="comment"># 生成搜索功能索引</span></span><br><span class="line">hexo g      <span class="comment"># 生成静态文件</span></span><br><span class="line">hexo s      <span class="comment"># 本地预览</span></span><br><span class="line">hexo d      <span class="comment"># 部署项目</span></span><br></pre></td></tr></table></figure>
 <span id="more"></span>
@@ -18,7 +19,13 @@
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo new title          <span class="comment"># 默认创建post</span></span><br><span class="line"></span><br><span class="line">hexo new draft title    <span class="comment"># 创建草稿</span></span><br><span class="line">hexo s --draft          <span class="comment"># 在本地渲染所有文章（包括草稿）</span></span><br><span class="line">hexo p title            <span class="comment"># 将草稿发布（移动到_posts）    </span></span><br></pre></td></tr></table></figure>
 <p>想要恢复草稿状态，只需要手动将md文件从<code>_post</code>文件夹移动到<code>_drafts</code>文件夹下即可</p>
 <h2 id="文章模块语法"><a class="markdownIt-Anchor" href="#文章模块语法"></a> 文章模块语法</h2>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&lt;!-- more --&gt;  <span class="comment"># 截断文章</span></span><br></pre></td></tr></table></figure>]]></content>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&lt;!-- more --&gt;  <span class="comment"># 截断文章</span></span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<h1 id="一些资源教程"><a class="markdownIt-Anchor" href="#一些资源教程"></a> 一些资源教程</h1>
+<p><a href="https://zhuanlan.zhihu.com/p/129644138">https://zhuanlan.zhihu.com/p/129644138</a> 美化</p>
+<p><a href="https://www.mickeymiao.top/posts/f9b8ceb/">https://www.mickeymiao.top/posts/f9b8ceb/</a> 美化</p>
+<p><a href="https://zhuanlan.zhihu.com/p/35668237">https://zhuanlan.zhihu.com/p/35668237</a> 技术</p>
+<p><a href="https://www.zhihu.com/people/feng-di-54-18/posts">https://www.zhihu.com/people/feng-di-54-18/posts</a> 技术</p>
+]]></content>
       <categories>
         <category>关于</category>
       </categories>
@@ -28,7 +35,7 @@
   </entry>
   <entry>
     <title>中文测试</title>
-    <url>/2024/01/27/%E4%B8%AD%E6%96%87%E6%B5%8B%E8%AF%95/</url>
+    <url>/posts/48b37900/</url>
     <content><![CDATA[]]></content>
   </entry>
 </search>
