@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>中文测试</title>
+    <url>/posts/48b37900/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
     <title>Hello World</title>
     <url>/posts/4a17b156/</url>
     <content><![CDATA[<p>主题为<code>next</code>，其官方配置网站：<a href="https://theme-next.iissnan.com/">https://theme-next.iissnan.com/</a></p>
@@ -21,7 +26,7 @@
 <h2 id="文章模块语法"><a class="markdownIt-Anchor" href="#文章模块语法"></a> 文章模块语法</h2>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&lt;!-- more --&gt;  <span class="comment"># 截断文章</span></span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
 <h1 id="一些资源教程"><a class="markdownIt-Anchor" href="#一些资源教程"></a> 一些资源教程</h1>
-<p><a href="https://pdpeng.github.io/2022/01/19/setup-personal-blog/#%E5%9F%9F%E5%90%8D">https://pdpeng.github.io/2022/01/19/setup-personal-blog/#域名</a> 部署</p>
+<p><a href="https://pdpeng.github.io/2022/01/19/setup-personal-blog/#%E5%9F%9F%E5%90%8D">https://pdpeng.github.io/2022/01/19/setup-personal-blog/#域名</a> 部署，最重要的资料</p>
 <p><a href="https://zhuanlan.zhihu.com/p/129644138">https://zhuanlan.zhihu.com/p/129644138</a> 美化</p>
 <p><a href="https://www.mickeymiao.top/posts/f9b8ceb/">https://www.mickeymiao.top/posts/f9b8ceb/</a> 美化</p>
 <p><a href="https://zhuanlan.zhihu.com/p/35668237">https://zhuanlan.zhihu.com/p/35668237</a> 技术</p>
@@ -48,10 +53,5 @@ password: 01ba111a</p>
       <tags>
         <tag>技术笔记</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>中文测试</title>
-    <url>/posts/48b37900/</url>
-    <content><![CDATA[]]></content>
   </entry>
 </search>
