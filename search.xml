@@ -27,15 +27,15 @@
 <p><a href="https://zhuanlan.zhihu.com/p/35668237">https://zhuanlan.zhihu.com/p/35668237</a> 技术</p>
 <p><a href="https://www.zhihu.com/people/feng-di-54-18/posts">https://www.zhihu.com/people/feng-di-54-18/posts</a> 技术</p>
 <h1 id="部署到云主机"><a class="markdownIt-Anchor" href="#部署到云主机"></a> 部署到云主机</h1>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">1.</span><br><span class="line">用ubuntu</span><br><span class="line"><span class="comment"># 获取root权限</span></span><br><span class="line">sudo su root  </span><br><span class="line"><span class="comment"># 本地终端直连云服务器</span></span><br><span class="line">ssh root@&lt;your_server_ip&gt;</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">1.</span><br><span class="line">域名解析注意用CNAME导向github.io</span><br><span class="line">github-pages设置-Custom domain填写（前缀加上www.），开启强制HTTPS</span><br><span class="line">服务器用ubuntu</span><br><span class="line"><span class="comment"># 获取root权限</span></span><br><span class="line">sudo su root  </span><br><span class="line"><span class="comment"># 本地终端直连云服务器</span></span><br><span class="line">ssh root@&lt;your_server_ip&gt;</span><br></pre></td></tr></table></figure>
 <ol start="2">
 <li></li>
 </ol>
 <p>宝塔：到官网找安装脚本，直接安装。安装好会显示以下信息：<br />
-外网面板地址: <a href="https://47.243.42.58:35227/e49fa34b">https://47.243.42.58:35227/e49fa34b</a><br />
-内网面板地址: <a href="https://172.17.19.219:35227/e49fa34b">https://172.17.19.219:35227/e49fa34b</a><br />
-username: up8aqa27<br />
-password: 930977d5</p>
+外网面板地址: <a href="https://47.243.42.58:40249/d8ca7ce8">https://47.243.42.58:40249/d8ca7ce8</a><br />
+内网面板地址: <a href="https://172.17.19.219:40249/d8ca7ce8">https://172.17.19.219:40249/d8ca7ce8</a><br />
+username: t6oyngto<br />
+password: 01ba111a</p>
 <ol start="3">
 <li></li>
 </ol>
